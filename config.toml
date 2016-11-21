@@ -1,0 +1,20 @@
+baseurl = "http://www.nathanharkenrider.com"
+title = "The Blog of Nathan Harkenrider"
+languagecode = "en-us"
+disqusshortname = "natehark"
+copyright = "Nathan Harkenrider 2011-2016"
+theme = "cocoa-hugo-theme"
+
+[permalinks]
+
+[params]
+  author = "Nathan Harkenrider"
+  dateform = "Jan 02, 2006"
+  dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+  description = "Lead Software Engineer [@Smartsheet](https://www.smartsheet.com). Formerly Optify and Visible Technologies. Dad, Gamer, Pacific Northwesterner and Seahawks fan." 
+  gatracker = "UA-5693476-1"
+  github = "//github.com/NateHark"
+  highlightjs = true
+  initials = "nh"
+  linkedin = "//linkedin.com/in/nathanharkenrider"
+  twitter = "//twitter.com/NateHark"
