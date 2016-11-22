@@ -5,3 +5,4 @@
 	path = public
 	url = git@github.com:NateHark/natehark.github.io.git
 	branch = master
+	master = master
