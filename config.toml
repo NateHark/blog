@@ -19,3 +19,5 @@ theme = "cocoa-hugo-theme"
   initials = "nh"
   linkedin = "//linkedin.com/in/nathanharkenrider"
   twitter = "//twitter.com/NateHark"
+
+  extracssfiles = [ "/css/override.css" ]
