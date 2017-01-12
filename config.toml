@@ -1,23 +1,25 @@
 baseurl = "https://natehark.github.io"
 title = "The Blog of Nathan Harkenrider"
-languagecode = "en-us"
+languageCode = "en-us"
+layoutdir = "layouts"
+publishdir = "public"
 disqusshortname = "natehark"
 copyright = "Nathan Harkenrider 2011-2016"
 theme = "cocoa-hugo-theme"
 
 [permalinks]
+  fixed = ":title/"
 
 [params]
   author = "Nathan Harkenrider"
   cachebuster = true 
   dateform = "Jan 02, 2006"
   dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-  description = "Lead Software Engineer [@Smartsheet](https://www.smartsheet.com). Formerly Optify and Visible Technologies. Dad, Gamer, Pacific Northwesterner and Seahawks fan." 
-  gatracker = "UA-5693476-1"
   github = "//github.com/NateHark"
+  googleAnalytics = "UA-5693476-1"
   highlightjs = true
-  initials = "nh"
   linkedin = "//linkedin.com/in/nathanharkenrider"
+  selfIntro = "Lead Software Engineer @Smartsheet. Formerly Optify and Visible Technologies. Dad, Gamer, Pacific Northwesterner and Seahawks fan." 
   twitter = "//twitter.com/NateHark"
 
   extracssfiles = [ "/css/override.css" ]

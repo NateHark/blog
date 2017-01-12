@@ -1,5 +1,5 @@
 +++
-title = "Talks"
+title = "Code"
 date = "2016-11-25"
 draft = false
 +++ 
@@ -15,4 +15,3 @@ live by hitting the 'e' key to launch the editor.
 
   [1]: talks/2016/11/flexbox-101
   [2]: img/flexbox.png
-

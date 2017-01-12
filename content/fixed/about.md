@@ -1,5 +1,5 @@
 +++
-title = "About Nathan"
+title = "About"
 draft = false
 date = "2016-11-20"
 +++
