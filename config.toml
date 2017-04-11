@@ -1,25 +1,58 @@
-baseurl = "https://natehark.github.io"
-title = "The Blog of Nathan Harkenrider"
-languageCode = "en-us"
-layoutdir = "layouts"
-publishdir = "public"
-disqusshortname = "natehark"
-copyright = "Nathan Harkenrider 2011-2016"
-theme = "cocoa-hugo-theme"
+baseurl             = "https://natehark.github.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "Nathan Harkenrider"
+title               = "Nathan Harkenrider"
+pygmentsuseclasses  = true
+disqusshortname     = "natehark" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = "UA-5693476-1"
 
 [permalinks]
-  fixed = ":title/"
+fixed = ":title/"
+blog  = "blog/:slug/"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
+
+[[menu.main]]
+name                   = "Code"
+weight                 = -100
+identifier             = "code"
+url                    = "https://github.com/NateHark/"
 
 [params]
-  author = "Nathan Harkenrider"
-  cachebuster = true 
-  dateform = "Jan 02, 2006"
-  dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-  github = "//github.com/NateHark"
-  googleAnalytics = "UA-5693476-1"
-  highlightjs = true
-  linkedin = "//linkedin.com/in/nathanharkenrider"
-  selfIntro = "Lead Software Engineer @Smartsheet. Formerly Optify and Visible Technologies. Dad, Gamer, Pacific Northwesterner and Seahawks fan." 
-  twitter = "//twitter.com/NateHark"
+latestpostscount       = 5                             # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Nathan Harkenrider"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "The personal blog of Nathan Harkenrider."
+#email                  = "you@example.space"
+extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+faviconfile            = "img/favicon.ico"
+github                 = "//github.com/NateHark"
+highlightjs            = true
+lang                   = "en"
+linkedin               = "//linkedin.com/in/nathan.harkenrider"
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                            # appears in the site header when set to a non-empty string
+twitter                = "//twitter.com/NateHark"
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
 
-  extracssfiles = [ "/css/override.css" ]
+avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # do not use in the same time as avatar

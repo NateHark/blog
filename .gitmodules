@@ -1,6 +1,6 @@
 [submodule "themes/cocoa-hugo-theme"]
 	path = themes/cocoa-hugo-theme
-	url = git@github.com:NateHark/cocoa-hugo-theme.git
+	url = git@github.com:nishanths/cocoa-hugo-theme.git
 	branch = master
 	master = master
 [submodule "public"]
