@@ -3,8 +3,3 @@
 	url = git@github.com:nishanths/cocoa-hugo-theme.git
 	branch = master
 	master = master
-[submodule "public"]
-	path = public
-	url = git@github.com:NateHark/natehark.github.io.git
-	branch = master
-	master = master
