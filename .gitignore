@@ -1,2 +1,5 @@
-.DS_Store
+# Build output directory
 public/
+
+# Sets environment variables for the build
+set-env-vars.sh
