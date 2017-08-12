@@ -11,6 +11,7 @@ pygmentsuseclasses  = true
 disqusshortname     = "natehark" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-5693476-1"
+enableEmoji         = true
 
 [permalinks]
 fixed = ":title/"
