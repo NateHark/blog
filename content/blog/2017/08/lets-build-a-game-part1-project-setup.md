@@ -1,7 +1,7 @@
 ---
 title: "Let's Build A Game - Part 1: Project Setup"
-date: 2017-08-12T10:04:33-07:00
-draft: true
+date: 2017-08-14T21:27:33-07:00
+draft: false
 ---
 
 ## Intro
