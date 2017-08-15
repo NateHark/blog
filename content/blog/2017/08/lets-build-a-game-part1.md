@@ -20,3 +20,6 @@ solutions before trying to research and implement best-practices. I'll be buildi
 other purposes in the near future. I'm hoping to have some fun and learn a few things along the way.
 
 Stay tuned for the rest of the series... :space_invader:
+
+##### Updates:
+[Part 1: Project Setup]({{< relref "lets-build-a-game-part1-project-setup.md" >}})
