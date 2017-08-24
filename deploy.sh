@@ -6,7 +6,7 @@ if [[ -f set-env-vars.sh ]]; then
 fi
 
 echo "Deploying to S3..."
-aws --profile blog-publisher --delete s3 sync public/ s3://www.nathanharkenrider.com
+aws --profile blog-publisher --delete --metadata "max-age=2592000" s3 sync public/ s3://www.nathanharkenrider.com
 
 echo "Invalidating Cloudfront distribution..."
 aws --profile blog-publisher cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths /\*
