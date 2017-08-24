@@ -50,10 +50,10 @@ github                 = "//github.com/NateHark"
 highlightjs            = true
 lang                   = "en"
 linkedin               = "//linkedin.com/in/nathan.harkenrider"
-noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+noshowreadtime         = true                          # if true, don't show "<x> minutes read" in posts
 selfintro              = ""                            # appears in the site header when set to a non-empty string
 twitter                = "//twitter.com/NateHark"
-# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+highlightjslanguages   = ["typescript"]                        # additional languages not included in the "common" set
 
-avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # gravatar             = ""                # do not use in the same time as avatar
