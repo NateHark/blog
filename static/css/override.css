@@ -6,3 +6,7 @@ section.main .content h1 {
 section.main .content p {
     margin-bottom: 1em;
 }
+
+section.main .content .markdown pre code {
+    font-size: 0.9em;
+}

@@ -1,6 +1,7 @@
 ---
 title: "Let's Build A Game"
 date: 2017-08-11T20:16:44-07:00
+lastmod: 2017-08-26T21:37:00-07:00
 draft: false
 ---
 
@@ -23,3 +24,4 @@ Stay tuned for the rest of the series... :space_invader:
 
 ##### Updates:
 [Part 1: Project Setup]({{< relref "lets-build-a-game-part1-project-setup.md" >}})
+[Part 2: Drawing the Player]({{< relref "lets-build-a-game-part2-drawing-the-player.md" >}})

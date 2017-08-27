@@ -1,6 +1,7 @@
 ---
 title: "Let's Build A Game - Part 1: Project Setup"
 date: 2017-08-14T21:27:33-07:00
+lastmod: 2017-08-26T21:37:00-07:00
 draft: false
 ---
 
@@ -205,7 +206,6 @@ We're now ready to build and run the application. First we'll build the project 
 compiled TypeScript will be pulled in as `bundle.js`. Now that we have our project set up and build process running, 
 it's time to actually start building a game.
 
-
-
+[Next -> Part 2: Drawing the Player]({{< relref "lets-build-a-game-part2-drawing-the-player.md" >}})
 
 
