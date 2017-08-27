@@ -1,11 +1,12 @@
 ---
 title: "Let's Build A Game - Part 2: Drawing the Player"
 date: 2017-08-26T21:38:04-07:00
+lastmod: 2017-08-26T21:46:00-07:00
 ---
 
 ## Drawing the Player
 
-[Source Code]()
+[Source Code](https://github.com/NateHark/twinstick/releases/tag/0.2.0)
 
 Now that we've finished [setting up our project]({{< relref "lets-build-a-game-part1-project-setup.md" >}}), we can
 begin adding some basic logic to our game. Drawing our player is probably a good place to start. My initial thought 
