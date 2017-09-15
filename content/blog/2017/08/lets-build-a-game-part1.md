@@ -1,14 +1,14 @@
 ---
 title: "Let's Build A Game"
 date: 2017-08-11T20:16:44-07:00
-lastmod: 2017-08-26T21:37:00-07:00
+lastmod: 2017-09-09T00:00:00-07:00
 draft: false
 ---
 
-From the moment my Dad unwrapped a Nintendo Entertainment System on Christmas Day in 1985, I've always held
-an interest in video games. I credit this interest in gaming with getting me started programming
-during my teenage years. It began small with tweaking AUTOEXEC.BAT or CONFIG.SYS to get one game or another
-to run properly under MS-DOS, and ended up as the focus of my academic and professional work.
+From the moment my Dad unwrapped a Nintendo Entertainment System on Christmas Day in 1985, I've alway enjoyed video 
+games. I credit gaming with kicking off my interest in computer programming later in my adolescence. It began small
+with tweaking AUTOEXEC.BAT or CONFIG.SYS to get one game or another to run properly under MS-DOS, and ended up as 
+the focus of my academic and professional work.
 
 That said, my interest in gaming and my professional and hobby programming have never overlapped. I have
 tons of experience as a full-stack engineer working on business and SaaS applications, but have never 
