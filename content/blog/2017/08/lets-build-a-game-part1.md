@@ -1,7 +1,7 @@
 ---
 title: "Let's Build A Game"
 date: 2017-08-11T20:16:44-07:00
-lastmod: 2017-09-09T00:00:00-07:00
+lastmod: 2017-09-15T21:40:00-07:00
 draft: false
 ---
 
@@ -23,5 +23,6 @@ other purposes in the near future. I'm hoping to have some fun and learn a few t
 Stay tuned for the rest of the series... :space_invader:
 
 ##### Updates:
-[Part 1: Project Setup]({{< relref "lets-build-a-game-part1-project-setup.md" >}})
-[Part 2: Drawing the Player]({{< relref "lets-build-a-game-part2-drawing-the-player.md" >}})
+* [Part 1: Project Setup]({{< relref "lets-build-a-game-part1-project-setup.md" >}})
+* [Part 2: Drawing the Player]({{< relref "lets-build-a-game-part2-drawing-the-player.md" >}})
+* [Part 3: Player Controls]({{< relref "lets-build-a-game-part3-player-controls.md" >}})
