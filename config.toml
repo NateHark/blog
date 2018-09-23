@@ -1,58 +1,53 @@
-baseurl             = "https://nathanharkenrider.com/"
-builddrafts         = false
-canonifyurls        = true
-contentdir          = "content"
-languageCode        = "en-US"
-layoutdir           = "layouts"
-publishdir          = "public"
-author              = "Nathan Harkenrider"
-title               = "Nathan Harkenrider"
-pygmentsuseclasses  = true
-disqusshortname     = "natehark" # Comment out to disable Disqus.
-pluralizelisttitles = false
-googleAnalytics     = "UA-5693476-1"
-enableEmoji         = true
+baseurl = "https://nathanharkenrider.com"
+title = "Nathan Harkenrider"
+theme = "coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
 
-[permalinks]
-blog  = "blog/:slug/"
+paginate = 20
+canonifyurls = true
 
-[[menu.main]]
-name                   = "Blog"
-weight                 = -120
-identifier             = "blog"
-url                    = "/blog/"
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-[[menu.main]]
-name                   = "About"
-weight                 = -110
-identifier             = "about"
-url                    = "/about/"
-
-[[menu.main]]
-name                   = "Code"
-weight                 = -100
-identifier             = "code"
-url                    = "https://github.com/NateHark/"
+disqusShortname = "NateHark"
 
 [params]
-latestpostscount       = 10                            # how many posts to display on the home page
-i18n_flags             = false                         # whether to display small country flags for available translations
-author                 = "Nathan Harkenrider"
-cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
-dateform               = "Jan 2, 2006"
-dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-description            = "The personal blog of Nathan Harkenrider."
-#email                  = "you@example.space"
-extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
-faviconfile            = "img/favicon.ico"
-github                 = "//github.com/NateHark"
-highlightjs            = true
-lang                   = "en"
-linkedin               = "//linkedin.com/in/nathan.harkenrider"
-noshowreadtime         = true                          # if true, don't show "<x> minutes read" in posts
-selfintro              = ""                            # appears in the site header when set to a non-empty string
-twitter                = "//twitter.com/NateHark"
-highlightjslanguages   = ["typescript"]                        # additional languages not included in the "common" set
+    author = "Nathan Harkenrider"
+    info = "Dad, Developer, Frequent Fighter of Virtual Fires"
+    description = "Nathan Harkenrider's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "img/profile.png"
 
-avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# gravatar             = ""                # do not use in the same time as avatar
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/NateHark/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/NateHark/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/blog/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
