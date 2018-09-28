@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-THEME_DIR=./theme/cocoa-hugo-theme
+THEME_DIR=./theme/coder
 UPDATE_THEME=false
 
 if [[ $1 == "-h" ]]; then
@@ -11,13 +11,13 @@ fi
 # Update the theme if requested
 if [[ $1 == "--update-theme" ]]; then
     echo "Updating theme to the latest version..."
-    pushd ./themes/cocoa-hugo-theme
+    pushd ${THEME_DIR}
     git pull
     popd
 fi
 
 # Build the site
-hugo -t cocoa-hugo-theme
+hugo -t coder
 
 echo "Done!"
 
