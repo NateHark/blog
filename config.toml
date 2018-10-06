@@ -39,8 +39,13 @@ disqusShortname = "NateHark"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 3
+    weight = 2
     url = "https://twitter.com/NateHark/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/nathanharkenrider"
 
 # Menu links
 [[menu.main]]
