@@ -4,4 +4,4 @@ VOLUME ["/data"]
 
 EXPOSE 1313
 
-ENTRYPOINT ["/usr/bin/hugo", "--log", "--logFile", "/var/log/hugo.log", "--verboseLog", "--source", "/data"]
+ENTRYPOINT ["/usr/bin/hugo", "--source", "/data"]
