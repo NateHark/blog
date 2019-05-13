@@ -1,24 +1,24 @@
 baseurl = "https://nathanharkenrider.com"
-title = "Nathan Harkenrider"
-theme = "coder"
+title = "nathanharkenrider.com"
+theme = "hugo-whisper-theme"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
 
 disqusShortname = "NateHark"
 
 [params]
     author = "Nathan Harkenrider"
-    info = "Dad, Developer, Frequent Fighter of Virtual Fires"
-    description = "Nathan Harkenrider's personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "img/profile.png"
+
+    homepage_button_link = "/posts"
+    homepage_button_text = "Read More"
+    homepage_intro = "The personal homepage of Nathan Harkenrider"
 
     footercontent = ""
 
@@ -29,6 +29,14 @@ disqusShortname = "NateHark"
 
     math = true
     custom_css = ["css/custom.css"]
+
+    [params.homepage_meta_tags]
+    meta_description = "The personal homepage of Nathan Harkenrider"
+    meta_og_title = "Nathan Harkenrider"
+
+    [params.logo]
+        standard = "/img/logo.png"
+        mobile = "/img/logo.png"
 
 # Social links
 [[params.social]]
@@ -47,12 +55,12 @@ disqusShortname = "NateHark"
     weight = 3
     url = "https://www.linkedin.com/in/nathanharkenrider"
 
-# Menu links
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url  = "/"
 [[menu.main]]
     name = "Blog"
-    weight = 1
-    url  = "/blog/"
-[[menu.main]]
-    name = "About"
     weight = 2
-    url = "/about/"
+    url = "/posts"
+

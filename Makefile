@@ -23,7 +23,7 @@ post: # creates a new post
 	docker run --rm --user $(shell id -u):$(shell id -u) -v $(CWD):/data $(BLOG_CONTAINER) new $(POST)
 
 server: # runs the local hugo webserver
-	docker run --rm --user $(shell id -u):$(shell id -u) -v $(CWD):/data  $(BLOG_CONTAINER) -w --buildDrafts --bind 0.0.0.0 --baseURL $(HOSTNAME):$(PORT) server
+	docker run --rm --user $(shell id -u):$(shell id -u) -v $(CWD):/data -p 0.0.0.0:$(PORT):$(PORT) $(BLOG_CONTAINER) -w --buildDrafts --bind 0.0.0.0 --baseURL $(HOSTNAME):$(PORT) server
 
 site: # builds the static website
 	docker run --rm --user $(shell id -u):$(shell id -u) -v $(CWD):/data -p 0.0.0.0:$(PORT):$(PORT) $(BLOG_CONTAINER) --buildDrafts
