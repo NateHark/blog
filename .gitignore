@@ -1,5 +1,6 @@
-# Build output directory
+# Build output directories
 public/
+resources/
 
 # Sets environment variables for the build
 set-env-vars.sh
