@@ -1,8 +1,0 @@
-[submodule "themes/cocoa-hugo-theme"]
-	path = themes/cocoa-hugo-theme
-	url = git@github.com:nishanths/cocoa-hugo-theme.git
-	branch = master
-	master = master
-[submodule "themes/coder"]
-	path = themes/coder
-	url = https://github.com/luizdepra/hugo-coder.git
