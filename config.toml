@@ -1,66 +1,32 @@
-baseurl = "https://nathanharkenrider.com"
-title = "nathanharkenrider.com"
-theme = "hugo-whisper-theme"
-languagecode = "en"
-defaultcontentlanguage = "en"
-
-paginate = 20
-canonifyurls = true
-
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
-
-disqusShortname = "NateHark"
+languageCode = "en-us"
+title = "Nathan Harkenrider"
+baseurl = "https://nathanharkenrider.com/"
+theme = "aerial"
 
 [params]
-    author = "Nathan Harkenrider"
+  name = "Nathan Harkenrider"
+  about = "Engineering Leader @Smartsheet &nbsp;&bull;&nbsp; Dad"
+  copyright = "Nathan Harkenrider"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = ""
+  favicon = "favicon.ico"
 
-    homepage_button_link = "/posts"
-    homepage_button_text = "Read More"
-    homepage_intro = "The personal homepage of Nathan Harkenrider"
-
-    footercontent = ""
-
-    hidecredits = false
-    hidecopyright = false
-
-    rtl = false
-
-    math = true
-    custom_css = ["css/custom.css"]
-
-    [params.homepage_meta_tags]
-    meta_description = "The personal homepage of Nathan Harkenrider"
-    meta_og_title = "Nathan Harkenrider"
-
-    [params.logo]
-        standard = "/img/logo.png"
-        mobile = "/img/logo.png"
-
-# Social links
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/NateHark/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 2
-    url = "https://twitter.com/NateHark/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
-    weight = 3
-    url = "https://www.linkedin.com/in/nathanharkenrider"
+  medium = "LinkedIn"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/nathanharkenrider"
 
-[[menu.main]]
-    name = "Home"
-    weight = 1
-    url  = "/"
-[[menu.main]]
-    name = "Blog"
-    weight = 2
-    url = "/posts"
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://github.com/NateHark"
 
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "https://www.twitter.com/NateHark"
+
+[[params.social]]
+  medium = "Facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/nathan.harkenrider"
