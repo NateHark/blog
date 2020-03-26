@@ -1,4 +1,4 @@
-FROM registry:5000/hugo
+FROM hugo
 
 VOLUME ["/data"]
 

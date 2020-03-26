@@ -4,13 +4,11 @@ CWD := $(dir $(MAKEFILE_PATH))
 HOSTNAME := $(shell hostname)
 PORT := 1313
 
-DOCKER_REPO := registry:5000
 BLOG_CONTAINER := blog
 S3_BUCKET := nathanharkenrider.com
 
-docker: # builds and pushes the Docker container
-	docker build --no-cache --tag $(BLOG_CONTAINER) --tag $(DOCKER_REPO)/$(BLOG_CONTAINER) .
-	docker push $(DOCKER_REPO)/$(BLOG_CONTAINER)
+docker: # builds Docker container
+	docker build --no-cache --tag $(BLOG_CONTAINER) $(CWD) 
 
 deploy: # deploys to S3 and invalidates the CloudFront distribution
 	docker run --rm -v $(CWD):/data -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} -e AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION} aws \
