@@ -1,6 +1,3 @@
-[submodule "themes/hugo-whisper-theme"]
-	path = themes/hugo-whisper-theme
-	url = git@github.com:NateHark/hugo-whisper-theme.git
-[submodule "themes/noteworthy"]
-	path = themes/noteworthy
-	url = git@github.com:NateHark/hugo-theme-noteworthy.git
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack
