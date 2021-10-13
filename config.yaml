@@ -31,6 +31,7 @@ params:
         emoji: 🌲
         subtitle: Random musings...
         avatar:
+            enabled: false
             local: true
             src: img/avatar.jpg
 
@@ -92,19 +93,19 @@ menu:
 
         - identifier: about
           name: About
-          url: about
+          url: /about
           weight: -90
           pre: user
 
         - identifier: archives
           name: Archives
-          url: archives
+          url: /archives
           weight: -70
           pre: archives
 
         - identifier: search
           name: Search
-          url: search
+          url: /search
           weight: -60
           pre: search
 
