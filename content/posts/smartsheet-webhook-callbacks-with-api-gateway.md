@@ -1,6 +1,7 @@
 ---
-title: "Smartsheet Webhook Callbacks With API Gateway"
+title: "Smartsheet Webhook Callbacks with API Gateway"
 date: 2021-10-11T22:48:00-07:00
+description: "Implementing serverless callbacks for Smartsheet webhooks with AWS API Gateway and Lambda"
 tags:
 - AWS
 - Smartsheet
