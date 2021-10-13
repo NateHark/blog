@@ -33,7 +33,7 @@ invalidate_cloudfront_distribution() {
         exit 1
     fi
 
-	aws	cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} --paths /\* --no-paginate true
+	aws	cloudfront create-invalidation --no-cli-pager --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} --paths /\* 
 }
 
 print_message() {
