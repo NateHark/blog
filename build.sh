@@ -16,6 +16,8 @@ build() {
 }
 
 deploy() {
+    build
+    
     print_message "Syncing content to S3..."
     sync_files
     print_message "Content sync complete"
