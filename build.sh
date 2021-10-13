@@ -11,7 +11,7 @@ print_usage() {
 
 build() {
     print_message "Building website..."
-    hugo
+    hugo --baseURL $BASE_URL
     print_message "Website build complete"
 }
 
@@ -33,7 +33,7 @@ invalidate_cloudfront_distribution() {
         exit 1
     fi
 
-	aws	cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} --paths /\*
+	aws	cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} --paths /\* --no-paginate true
 }
 
 print_message() {
@@ -50,15 +50,12 @@ server() {
 }
 
 sync_files() {
-    if [ -z $S3_BUCKET_NAME ]; then
-        echo "S3_BUCKET_NAME not set" >&2
-        exit 1
-    fi 
-
     aws s3 sync --delete public s3://${S3_BUCKET_NAME}
 }
 
 COMMAND=$1
+S3_BUCKET_NAME=nathanharkenrider.com
+BASE_URL=https://nathanharkenrider.com
 
 if [ -z $COMMAND ]; then
     print_usage
