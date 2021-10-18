@@ -2,5 +2,3 @@
 public/
 resources/
 
-# Sets environment variables for the build
-set-env-vars.sh
