@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Downloading Hugo"
+      - curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_extended_0.88.1_Linux-64bit.tar.gz
+      - mv hugo /usr/local/bin
+  build:
+    commands:
+      - echo "Starting build"
+      - hugo --baseURL nathanharkenrider.com
+  post_build:
+    commands:
+      - echo "Build complete"
+  artifacts:
+    files:
+      - 'public/**/*'
+  
