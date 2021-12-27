@@ -29,7 +29,7 @@ params:
 
     sidebar:
         emoji: 
-        subtitle: Random musings...
+        subtitle: VP of Engineering @Vareto. Formerly @Smartsheet. I write about engineering leadership, code, and various hobbies.
         avatar:
             enabled: true
             local: true
@@ -108,6 +108,18 @@ menu:
           url: /search
           weight: -60
           pre: search
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/NateHark
+          params:
+            icon: brand-github
+
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/NateHark
+          params:
+            icon: brand-twitter
 
 related:
     includeNewer: true
