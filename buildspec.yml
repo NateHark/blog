@@ -7,6 +7,9 @@ phases:
       - curl -L -o hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
       - tar -zxf hugo.tar.gz
       - mv hugo /usr/local/bin
+  pre_build:
+    commands:
+      - git submodule update --init --recursive
   build:
     commands:
       - echo "Starting build"
