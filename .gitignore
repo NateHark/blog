@@ -2,3 +2,5 @@
 public/
 resources/
 
+# Hugo
+.hugo_build.lock
