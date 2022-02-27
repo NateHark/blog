@@ -18,7 +18,7 @@ phases:
     commands:
       - echo "Build complete"
       - echo "Syncing output to s3"
-      - aws s3 sync --debug --delete public s3://$S3_BUCKET
+      - aws s3 sync --only-show-errors --delete public s3://$S3_BUCKET
       - echo "Invalidating CloudFront distribution"
       - aws	cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths /\* 
 artifacts:
