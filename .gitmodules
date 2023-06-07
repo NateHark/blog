@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-water"]
+	path = themes/hugo-theme-water
+	url = ssh://git@github.com/NateHark/hugo-theme-water
