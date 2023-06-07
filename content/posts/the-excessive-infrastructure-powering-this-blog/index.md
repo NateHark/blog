@@ -1,8 +1,8 @@
 ---
 title: "The Excessive Infrastructure Powering This Blog"
 description: "This blog is a static website generated with the Hugo static site generator. Simple right? Hosting this blog is another story and involves a surprising amount of infrastructure behind the scenes. Why?"
-date: '2022-02-21'
-featuredImage: img/cedric-vt-NmxwQqSks2E-unsplash.jpg
+date: 2022-02-21T09:46:32-08:00
+image: cedric-vt-NmxwQqSks2E-unsplash.jpg
 hidden: false
 comments: true
 tags:

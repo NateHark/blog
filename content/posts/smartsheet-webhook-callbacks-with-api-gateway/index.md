@@ -1,11 +1,11 @@
 ---
 title: "Smartsheet Webhook Callbacks with API Gateway"
-date: '2021-10-11'
+date: 2021-10-11T22:48:00-07:00
 description: "Implementing serverless callbacks for Smartsheet webhooks with AWS API Gateway and Lambda"
 tags:
-  - AWS
-  - Smartsheet
-  - API
+- AWS
+- Smartsheet
+- API
 ---
 
 I recently had a need to auto-populate the values of drop-down list columns in [Smartsheet](https://www.smartsheet.com) based on a list of values in a "lookup" sheet (this is similar to using named ranges to provide drop-down values in Excel). While there isn't a way to do this with native Smartsheet features, it's rather simple to implement via [Smartsheet's API](https://smartsheet.redoc.ly/) and webhooks. Webhooks require a publicly-accessible callback URL, which can be a bit of a pain if you don't happen to have a server available to host the callback. Since I didn't have a server handy, and wasn't interested in maintaining an EC2 instance for this little project, I thought this would be a good opportunity to explore a serverless approach in AWS.
