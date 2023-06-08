@@ -1,0 +1,49 @@
+baseURL = "nathanharkenrider.com"
+languageCode = "en-us"
+
+title = "Scaling the Intangible"
+theme = "hugo-theme-water"
+
+[params]
+  author = "Nathan Harkenrider"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    pre = "pen-to-square"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    pre = "tag"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.social]]
+    name = "LinkedIn"
+    pre = "linkedin"
+    url = "https://linkedin.com/in/nathanharkenrider"
+    weight = 1
+
+  [[menu.social]]
+    name = "Github"
+    pre = "github"
+    url = "https://github.com/NateHark"
+    weight = 2
+
+  [[menu.social]]
+    name = "Twitter"
+    pre = "twitter"
+    url = "https://www.twitter.com/NateHark"
+    weight = 3
+
+  [[menu.social]]
+    name = "Mastodon"
+    pre = "mastodon"
+    url = "https://hachyderm.io/@NateHark"
+    weight = 4
