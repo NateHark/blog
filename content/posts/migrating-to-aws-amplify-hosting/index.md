@@ -2,7 +2,6 @@
 title = "Migrating to AWS Amplify Hosting"
 date = 2023-06-12T21:34:13-07:00
 description = "Moving this website to AWS Amplify hosting"
-draft = true
 tags = ["AWS"]
 +++
 
