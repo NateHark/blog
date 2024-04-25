@@ -7,3 +7,5 @@ curl -L -o hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HU
 tar -zxf hugo.tar.gz
 sudo mv hugo /usr/local/bin
 rm hugo.tar.gz
+
+git submodule update --recursive --init
