@@ -2,7 +2,6 @@
 title: "The Excessive Infrastructure Powering This Blog"
 description: "This blog is a static website generated with the Hugo static site generator. Simple right? Hosting this blog is another story and involves a surprising amount of infrastructure behind the scenes. Why?"
 date: 2022-02-21T09:46:32-08:00
-image: cedric-vt-NmxwQqSks2E-unsplash.jpg
 hidden: false
 comments: true
 tags:
@@ -28,5 +27,4 @@ Now on to the build process. This involves retrieving the blog's source code fro
 
 Is all of this necessary? Absolutely not, but it was an interesting diversion and provided the opportunity to learn a few new things. Fortunately, it looks like DigitalOcean has largely [automated](https://www.digitalocean.com/community/tutorials/how-to-build-and-deploy-a-hugo-site-to-digitalocean-app-platform) most of the process I describe above. Check it out if you're looking for a low-friction alternative for hosting a Hugo static site.
 
-Photo credit: [Cédric VT](https://unsplash.com/@cedric_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash.
   
