@@ -36,13 +36,7 @@ theme = "hugo-theme-water"
     weight = 2
 
   [[menu.social]]
-    name = "Twitter"
-    pre = "twitter"
-    url = "https://www.twitter.com/NateHark"
+    name = "Bluesky"
+    pre = "bluesky"
+    url = "https://bsky.app/profile/natehark.bsky.social"
     weight = 3
-
-  [[menu.social]]
-    name = "Mastodon"
-    pre = "mastodon"
-    url = "https://hachyderm.io/@NateHark"
-    weight = 4
