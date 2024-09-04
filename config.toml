@@ -1,10 +1,18 @@
 languageCode = "en-us"
 
-title = "Scaling the Intangible"
+title = "Nathan Harkenrider"
+
 theme = "hugo-theme-water"
 
 [params]
   author = "Nathan Harkenrider"
+  
+  description = '''
+  Hello and welcome! I'm an engineering leader, runner, and dad, among other things. 
+  I've served in many roles from Software Engineer to VP of Engineering to CTO at 
+  a variety of organizations ranging from early-stage startups to publicly traded companies
+  such as <a href="https://www.smartsheet.com">Smartsheet</a> and <a href="https://vareto.com">Vareto</a>. 
+  '''
 
 [menu]
   [[menu.main]]
