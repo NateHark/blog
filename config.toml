@@ -30,6 +30,11 @@ theme = "hugo-theme-water"
     pre = "tag"
     url = "/tags/"
     weight = 3
+  [[menu.main]]
+    name = "Projects"
+    pre = "mug-hot"
+    url = "/projects/"
+    weight = 4
 
   [[menu.social]]
     name = "LinkedIn"
