@@ -8,10 +8,10 @@ theme = "hugo-theme-water"
   author = "Nathan Harkenrider"
   
   description = '''
-  Hello and welcome! I'm an engineering leader, runner, and dad, among other things. 
-  I've served in many roles from Software Engineer to VP of Engineering to CTO at 
-  a variety of organizations ranging from early-stage startups to publicly traded companies
-  such as <a href="https://www.smartsheet.com">Smartsheet</a> and <a href="https://vareto.com">Vareto</a>. 
+  Hey All! My name is Nathan Harkenrider. I'm an engineering leader, runner, and dad, among other things. 
+  I've served in many roles from individual contributor to executive leadership at 
+  a variety of organizations ranging from early-stage startups to publicly traded companies. My writing 
+  tends to focus on technology leadership, but I may post about other topics of interest occasionally.
   '''
 
 [menu]
