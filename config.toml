@@ -51,5 +51,5 @@ theme = "hugo-theme-water"
   [[menu.social]]
     name = "Bluesky"
     pre = "bluesky"
-    url = "https://bsky.app/profile/natehark.bsky.social"
+    url = "https://bsky.app/profile/nathanharkenrider.com"
     weight = 3
