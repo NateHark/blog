@@ -44,40 +44,48 @@
     function initTheme() {
         const savedTheme = getThemePreference();
         
-        // Check if user prefers dark mode (if no saved preference)
-        if (savedTheme === 'light' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            applyTheme('dark');
-            setThemePreference('dark');
-        } else {
+        // // Check if user prefers dark mode (if no saved preference)
+        // if (savedTheme === 'light' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        //     applyTheme('dark');
+        //     setThemePreference('dark');
+        // } else {
+        //     applyTheme(savedTheme);
+        // }
+
+        if (savedTheme) {
             applyTheme(savedTheme);
         }
-        
+         
+        // Listen for system theme changes
+        // if (window.matchMedia) {
+        //     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        //         // Only auto-switch if user hasn't manually set a preference
+        //         const currentTheme = getThemePreference();
+        //         if (currentTheme === 'light' || currentTheme === 'dark') {
+        //             // User has a preference, don't auto-switch
+        //             return;
+        //         }
+                
+        //         const newTheme = e.matches ? 'dark' : 'light';
+        //         applyTheme(newTheme);
+        //     });
+        // }
+    }
+
+    initTheme();
+
+    document.addEventListener('DOMContentLoaded', function() {
         // Add event listener to theme toggle button
         const themeToggle = document.querySelector('.theme-toggle');
         if (themeToggle) {
             themeToggle.addEventListener('click', toggleTheme);
         }
-        
-        // Listen for system theme changes
-        if (window.matchMedia) {
-            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
-                // Only auto-switch if user hasn't manually set a preference
-                const currentTheme = getThemePreference();
-                if (currentTheme === 'light' || currentTheme === 'dark') {
-                    // User has a preference, don't auto-switch
-                    return;
-                }
-                
-                const newTheme = e.matches ? 'dark' : 'light';
-                applyTheme(newTheme);
-            });
-        }
-    }
+    });
     
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initTheme);
-    } else {
-        initTheme();
-    }
+    // // Initialize when DOM is ready
+    // if (document.readyState === 'loading') {
+    //     document.addEventListener('DOMContentLoaded', initTheme);
+    // } else {
+    //     initTheme();
+    // }
 })();

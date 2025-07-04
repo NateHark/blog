@@ -1,15 +1,7 @@
 {{ define "main" }}
 <div class="container">
-    <div class="home-intro">
-        <h1 class="intro-title">{{ .Site.Title }}</h1>
-        <div class="intro-description">
-            {{ .Site.Params.description | markdownify }}
-        </div>
-    </div>
-    
     {{ if .Site.RegularPages }}
     <section class="recent-posts">
-        <h2 class="section-title">Recent Posts</h2>
         <div class="post-list">
             {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
             <article class="post-item">
@@ -29,7 +21,7 @@
         </div>
         
         <div class="view-all">
-            <a href="/posts/" class="view-all-link">View all posts →</a>
+            <a href="/posts/" class="view-all-link">View all posts ✨</a>
         </div>
     </section>
     {{ end }}

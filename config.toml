@@ -18,7 +18,7 @@ theme = "hugo-theme-minimal-modern"
   [[menu.main]]
     name = "About"
     pre = "home"
-    url = "/"
+    url = "/about/"
     weight = 1
   [[menu.main]]
     name = "Posts"
