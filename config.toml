@@ -2,7 +2,7 @@ languageCode = "en-us"
 
 title = "Nathan Harkenrider"
 
-theme = "hugo-theme-water"
+theme = "hugo-theme-minimal-modern"
 
 [params]
   author = "Nathan Harkenrider"

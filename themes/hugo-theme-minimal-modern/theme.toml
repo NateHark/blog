@@ -1,0 +1,15 @@
+name = "Minimal Modern"
+license = "MIT"
+licenselink = "https://github.com/hugo-themes/hugo-theme-minimal-modern/blob/master/LICENSE"
+description = "A clean, minimalist Hugo theme with modern typography inspired by Substack, featuring light/dark mode support and responsive design."
+homepage = "https://github.com/hugo-themes/hugo-theme-minimal-modern"
+tags = ["blog", "minimal", "modern", "responsive", "dark-mode", "typography", "substack"]
+features = ["responsive", "dark-mode", "light-mode", "modern-typography", "post-listing", "tag-listing", "mobile-friendly"]
+min_version = "0.80.0"
+
+[author]
+  name = "Hugo Community"
+  homepage = "https://gohugo.io"
+
+[params]
+  description = "A modern, minimalist blog theme"

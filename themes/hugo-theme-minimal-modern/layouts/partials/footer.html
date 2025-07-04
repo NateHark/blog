@@ -1,0 +1,19 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
+            </div>
+            
+            {{ if .Site.Menus.social }}
+            <div class="social-links">
+                {{ range .Site.Menus.social }}
+                <a href="{{ .URL }}" class="social-link" rel="noopener noreferrer" target="_blank" aria-label="{{ .Name }}">
+                    {{ .Name }}
+                </a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</footer>
