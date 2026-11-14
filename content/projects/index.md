@@ -10,6 +10,8 @@ description = "Side projects and experiments."
 An original 5-on-5 arcade basketball game for the browser, in the spirit of 8/16-bit side-view hoops games:
 pixel-art sprites generated procedurally at runtime, on a low-resolution 3D court built with [three.js](https://threejs.org).
 
+Jump Ball was an experiment with Anthropic's Claude Fable 5.2 model. The game is fully vibe-coded: the model wrote all of the code.
+
 **[Play Jump Ball →](/games/jump-ball/)**
 
 Play against the CPU, against a friend on the same keyboard or with gamepads, or just watch the CPU play itself.
